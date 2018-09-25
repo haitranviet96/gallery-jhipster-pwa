@@ -1,4 +1,3 @@
-
 {
   "name": "gallery",
   "version": "0.0.0",
@@ -9,9 +8,9 @@
     "node_modules"
   ],
   "dependencies": {
-    "@fortawesome/react-fontawesome": "0.1.3",
     "@fortawesome/fontawesome-svg-core": "1.2.4",
     "@fortawesome/free-solid-svg-icons": "5.3.1",
+    "@fortawesome/react-fontawesome": "0.1.3",
     "availity-reactstrap-validation": "2.0.6",
     "axios": "0.18.0",
     "bootstrap": "4.1.3",
@@ -25,6 +24,7 @@
     "react-hot-loader": "3.1.1",
     "react-jhipster": "0.5.8",
     "react-loadable": "5.5.0",
+    "react-photo-gallery": "^6.2.1",
     "react-redux": "5.0.7",
     "react-redux-loading-bar": "4.0.5",
     "react-router-dom": "4.3.1",
@@ -54,7 +54,7 @@
     "@types/redux": "3.6.31",
     "@types/selenium-webdriver": "3.0.10",
     "@types/webpack-env": "1.13.6",
-    "browser-sync": "2.24.6",
+    "browser-sync": "^2.24.7",
     "browser-sync-webpack-plugin": "2.2.2",
     "cache-loader": "1.2.2",
     "chai": "4.1.2",
@@ -82,7 +82,7 @@
     "lint-staged": "7.2.2",
     "merge-jsons-webpack-plugin": "1.0.17",
     "mini-css-extract-plugin": "0.4.2",
-    "mocha": "5.2.0",
+    "mocha": "^5.2.0",
     "moment-locales-webpack-plugin": "1.0.7",
     "optimize-css-assets-webpack-plugin": "5.0.0",
     "prettier": "1.14.2",
@@ -115,7 +115,8 @@
     "webpack-merge": "4.1.4",
     "webpack-notifier": "1.6.0",
     "workbox-webpack-plugin": "3.4.1",
-    "write-file-webpack-plugin": "4.3.2"  },
+    "write-file-webpack-plugin": "4.3.2"
+  },
   "resolutions": {
     "@types/react": "16.4.12"
   },
